@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" fill="none">
+  <style>
+    @keyframes typing {
+      0%, 100% { width: 0 }
+      20%, 80% { width: 100% }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1 }
+      50% { opacity: 0 }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px) }
+      to { opacity: 1; transform: translateY(0) }
+    }
+    .title {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      fill: #e2e8f0;
+    }
+    .subtitle {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-size: 16px;
+      fill: #06b6d4;
+      animation: fadeIn 1s ease 0.5s both;
+    }
+    .cursor {
+      animation: blink 1s step-end infinite;
+    }
+    .role-tag {
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+      fill: #94a3b8;
+      animation: fadeIn 0.8s ease both;
+    }
+    .accent { fill: #c084fc; }
+    .cyan { fill: #06b6d4; }
+    .green { fill: #34d399; }
+  </style>
+
+  <!-- Name -->
+  <text x="20" y="38" class="title">
+    <tspan>David Moya</tspan>
+    <tspan class="accent"> .</tspan>
+    <tspan class="cyan"> pedri77</tspan>
+  </text>
+  <rect x="310" y="18" width="3" height="28" fill="#06b6d4" class="cursor"/>
+
+  <!-- Subtitle -->
+  <text x="20" y="65" class="subtitle">
+    Cybersecurity &amp; AI Platform Engineer  |  Founder @ Riskitera S.L.U.
+  </text>
+
+  <!-- Role tags -->
+  <text x="20" y="95" class="role-tag" style="animation-delay: 0.8s">
+    <tspan class="cyan">$</tspan> GRC/SOC/CTI
+    <tspan class="accent"> | </tspan>
+    <tspan>ENS Alto . NIS2 . DORA</tspan>
+    <tspan class="accent"> | </tspan>
+    <tspan>Multi-Agent Systems</tspan>
+    <tspan class="accent"> | </tspan>
+    <tspan class="green">Madrid, ES</tspan>
+  </text>
+</svg>
