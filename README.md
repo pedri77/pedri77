@@ -1,9 +1,9 @@
 <img src="assets/hero-banner.png" alt="Cybersecurity & AI Banner" width="100%"/>
 
 <p align="center">
-  <video src="assets/profile-intro.mp4" width="100%" autoplay loop muted playsinline>
-    <a href="assets/profile-intro.mp4">Watch intro video</a>
-  </video>
+  <a href="assets/profile-intro.mp4">
+    <img src="https://img.shields.io/badge/▶_Watch_Intro_Video-10s-06b6d4?style=for-the-badge&labelColor=0f172a" alt="Watch Intro Video"/>
+  </a>
 </p>
 
 <picture>
